@@ -140,3 +140,14 @@ switch (day) {
 }
 
 console.log(day)
+
+let logo = document.getElementById("nav-logo")
+logo.innerHTML = "Hello world"
+logo.style.color = "blue";
+
+// let text = document.getElementsByTagName("h1")
+// text.style.color = "blue";
+
+function register(){
+    return alert("User registered")
+}
