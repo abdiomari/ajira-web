@@ -88,3 +88,38 @@ body {
     height: 20vh;
 }
 
+/* below 480px */
+@media screen and (max-width:480px) {
+    .buttons button{
+        padding:10px;
+        border: 1px solid rgb(254, 0, 0);
+        background-color: white;
+        /* margin-right: 10px; */
+    }
+
+    .buttons {
+        margin-right: 0px;
+    }
+
+    .hero-section {
+        display: block;
+    }
+
+    .hero-img img{
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+/* above 480px  */
+
+@media  screen and (min-width:481px) {
+    .hero-img img{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .hero-text{
+        width: 250px;
+    }
+}
